@@ -27,7 +27,7 @@ class CreateCarsTable extends Migration
             $table->string('type');
             $table->string('age');
             $table->string('kilometer');
-            $table->string('status');
+            $table->boolean('status');
             $table->timestamps();
         });
     }
