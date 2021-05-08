@@ -76,8 +76,8 @@
     <div class="col-md-6 mb-3">
         <label for="validationCustom05">{{ __('lan.status') }}</label>
         <select  class="form-control" name="status" required>
-                <option value="1"></option>
-                <option value="0"></option>
+                <option value="1">{{ __('lan.new') }}</option>
+                <option value="0">{{ __('lan.used') }}</option>
         </select>
         {{-- <div class="invalid-feedback">
         </div> --}}
@@ -131,7 +131,7 @@
         </label>
       </div>
     </div>
-    <button class="btn btn-primary" type="submit">Submit form</button>
+    <button class="btn btn-primary" type="submit"> {{ __('lan.add_car') }} </button>
   </form>
 
   <script>
