@@ -56,7 +56,7 @@ class CarController extends Controller
             'store_id'          => 'required|exists:stores,id',
             'category_id'       => 'required|exists:categories,id',
             'description'       => 'required',
-            'image'             => 'required',
+            'image'             => 'required|max:2056',
             'price'             => 'required',
             'brand'             => 'required',
             'model'             => 'required',

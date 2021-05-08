@@ -4,7 +4,7 @@
 <form class="needs-validation" novalidate action="{{ Route('cars.store') }}" method="post" enctype="multipart/form-data">
     @csrf
     @if($errors->any())
-        {!! implode('', $errors->all('<div>:message</div>')) !!}
+        <p class="error" style="color:red;">{!! implode('', $errors->all('<div>:message</div>')) !!}</p>
     @endif
     <div class="form-row">
       <div class="col-md-6 mb-3">
