@@ -28,7 +28,9 @@ return [
     'close'                     =>  "Close",
     'add_store'                 => 'Add Store',
     'store'                     => 'Store',
-
+    'new'                       => 'New',
+    'used'                      => 'Used',
+    'add_car'                   => 'Add Car',
 
 
 

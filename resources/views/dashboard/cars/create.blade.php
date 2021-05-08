@@ -75,7 +75,10 @@
 
     <div class="col-md-6 mb-3">
         <label for="validationCustom05">{{ __('lan.status') }}</label>
-        <input type="text" class="form-control" name="status" placeholder="Status" value="new" required>
+        <select  class="form-control" name="status" required>
+                <option value="1"></option>
+                <option value="0"></option>
+        </select>
         {{-- <div class="invalid-feedback">
         </div> --}}
     </div>
